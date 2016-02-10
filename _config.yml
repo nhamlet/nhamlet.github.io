@@ -1,0 +1,12 @@
+
+# Site settings
+title: Apoid Jazz
+description: Blog for the musings and rantings of Nate Hamlet; gigging researcher, late night DJ, and arthropod enthusiast
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:  nhamlet
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
