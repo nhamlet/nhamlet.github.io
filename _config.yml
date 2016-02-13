@@ -1,12 +1,64 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title:       "apoid jazz"
+description: 'Full time bug guy, part time whatever'
+url:         # the base hostname & protocol for your site
 
-# Site settings
-title: Apoid Jazz
-description: Blog for the musings and rantings of Nate Hamlet; gigging researcher, late night DJ, and arthropod enthusiast
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username:
-github_username:  nhamlet
-highlighter: rouge
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          USA/Sacramento
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Build settings
-markdown: kramdown
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: apoid jazz
+  avatar: IMG_20150910_184515.jpg
+  job: ""
+  bio: "musings of an aging hipster naturalist"
+  email: nathanjhamlet@gmail.com
+  disqus-shortname:
+  twitter: nj_hamlet #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: nhamlet #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin:  #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: nastin #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
